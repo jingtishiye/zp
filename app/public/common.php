@@ -628,7 +628,9 @@ class common{
 		    if($file != '.' && $file != '..') {
 		        $dir = $dir_adds . DIRECTORY_SEPARATOR . $file;
 		        is_dir($dir) ? $this->del_dir($dir) : @unlink($dir);
-		    }
+		    }else{
+		        break;
+            }
 	    }
 	    closedir($handle);
 	    if($del_def==0){
