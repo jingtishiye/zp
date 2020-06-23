@@ -208,7 +208,7 @@ class index_controller extends adminCommon{
 	}
 	function del_cache_action(){
 		$cache=$this->del_dir("../data/templates_c",1);
-		$cache=$this->del_dir("../data/cache",1);
+		//$cache=$this->del_dir("../data/cache",1);
 		
 		$config=$this->obj->DB_select_num("admin_config","`name`='cachecode'");
 		$cachecode=rand(1000,9999);
