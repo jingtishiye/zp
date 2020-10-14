@@ -8,6 +8,7 @@ $menu_name=array('1'=>array('0'=>array('name'=>'首页','url'=>'/','furl'=>'m_in
 ,'6'=>array('name'=>'招聘会','url'=>'zph/','furl'=>'','eject'=>'0','type'=>'1','color'=>'','model'=>'','bold'=>'0','sort'=>'9')
 ,'7'=>array('name'=>'兼职','url'=>'part/','furl'=>'','eject'=>'0','type'=>'1','color'=>'','model'=>'','bold'=>'0','sort'=>'9')
 ,'8'=>array('name'=>'专题招聘','url'=>'special/','furl'=>'special/','eject'=>'0','type'=>'1','color'=>'','model'=>'','bold'=>'0','sort'=>'14')
+,'9'=>array('name'=>'餐饮云服','url'=>'http://www.canyinyunfu.com/','furl'=>'','eject'=>'0','type'=>'2','color'=>'','model'=>'','bold'=>'0','sort'=>'100')
 )
 ,'11'=>array('0'=>array('name'=>'触屏版','url'=>'index.php?c=wap','furl'=>'c_wap.html','eject'=>'1','type'=>'1','color'=>'','model'=>'','bold'=>'0','sort'=>'1')
 ,'1'=>array('name'=>'微信','url'=>'index.php?c=weixin','furl'=>'c_weixin.html','eject'=>'1','type'=>'1','color'=>'','model'=>'','bold'=>'0','sort'=>'3')

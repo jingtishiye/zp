@@ -978,3 +978,33 @@ array (
 'app_id=2021001159671026&auth_app_id=2021001159671026&buyer_id=2088122267550921&buyer_pay_amount=0.01&charset=UTF-8&fund_bill_list=[{"amount":"0.01","fundChannel":"PCREDIT"}]&gmt_create=2020-06-22 09:00:31&gmt_payment=2020-06-22 09:00:37&invoice_amount=0.01&notify_id=2020062200222090037050920588062044&notify_time=2020-06-22 09:25:18&notify_type=trade_status_sync&out_trade_no=159278761833715&point_amount=0.00&receipt_amount=0.01&seller_id=2088831285107111&subject=购买会员 &total_amount=0.01&trade_no=2020062222001450920523150070&trade_status=TRADE_SUCCESS&version=1.0'
 
 RSA2签名失败!
+array (
+  'gmt_create' => '2020-06-22 09:00:31',
+  'charset' => 'UTF-8',
+  'gmt_payment' => '2020-06-22 09:00:37',
+  'notify_time' => '2020-06-22 18:28:27',
+  'subject' => '购买会员 ',
+  'sign' => 'aJpqDXuXeeaiJ5sKdmZUykfagHa5hgq7k2iXYIPtqoORBt5LhpPmLxX5SJnKoaHurJxexNZpufKzqt0GI4W+PM3Nv60vWWN25361u+OLumlovWtbBK2UgxeMyLVnXHi5dvU56z5yoZDeIjPTeeeR5HU/Jf3YwqHZNqmoDRqCSvRBY9dWAGWNTTNjkwu9NZyvp+rccN31DKqAGKnB+mXbWSzLN1Q09nxJ0GYLXshxSD9I87vJWJ1SsZOA9GiC9zC5xCKXAWFMYMw0ue+0XRX9IeXzOHG+ZPKZ1TUlYij3mIcTpomfJW7ep2Ybj5nDXcPiy3Px3U/ftiujVynC/+cJXQ==',
+  'buyer_id' => '2088122267550921',
+  'invoice_amount' => '0.01',
+  'version' => '1.0',
+  'notify_id' => '2020062200222090037050920588062044',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"PCREDIT"}]',
+  'notify_type' => 'trade_status_sync',
+  'out_trade_no' => '159278761833715',
+  'total_amount' => '0.01',
+  'trade_status' => 'TRADE_SUCCESS',
+  'trade_no' => '2020062222001450920523150070',
+  'auth_app_id' => '2021001159671026',
+  'receipt_amount' => '0.01',
+  'point_amount' => '0.00',
+  'buyer_pay_amount' => '0.01',
+  'app_id' => '2021001159671026',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088831285107111',
+)
+'app_id=2021001159671026&auth_app_id=2021001159671026&buyer_id=2088122267550921&buyer_pay_amount=0.01&charset=UTF-8&fund_bill_list=[{"amount":"0.01","fundChannel":"PCREDIT"}]&gmt_create=2020-06-22 09:00:31&gmt_payment=2020-06-22 09:00:37&invoice_amount=0.01&notify_id=2020062200222090037050920588062044&notify_time=2020-06-22 18:28:27&notify_type=trade_status_sync&out_trade_no=159278761833715&point_amount=0.00&receipt_amount=0.01&seller_id=2088831285107111&subject=购买会员 &total_amount=0.01&trade_no=2020062222001450920523150070&trade_status=TRADE_SUCCESS&version=1.0'
+RSA2签名成功!
+交易成功!
+return 的返回值为2
+订单号:159278761833715订单金额:0.01
